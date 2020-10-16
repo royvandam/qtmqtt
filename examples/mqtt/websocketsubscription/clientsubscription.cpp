@@ -53,7 +53,7 @@
 #include <QtCore/QCoreApplication>
 #include <QtCore/QLoggingCategory>
 
-Q_LOGGING_CATEGORY(lcWebSocketMqtt, "qtdemo.websocket.mqtt")
+Q_LOGGING_CATEGORY(lcWebSocketMqtt, "mqtt")
 
 ClientSubscription::ClientSubscription(QObject *parent) : QObject(parent)
 {
